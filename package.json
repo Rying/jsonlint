@@ -33,6 +33,11 @@
     "jison": "*",
     "uglify-js": "*"
   },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "scripts": {
     "test": "node test/all-tests.js"
   },
